@@ -1,0 +1,22 @@
+.sidenav{
+    width: 23%;
+    height: 90vh;
+    border: thin solid black;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    position: relative;
+    -webkit-box-align: end;
+    align-items: flex-end;
+}
+nav{
+    width: 275px;
+    border: thin solid red;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    overflow-y: scroll;
+    font-family: 'roboto', sans-serif;
+    align-items: flex-end;
+    /* text-align: center; */
+    /* margin: 100px; */
+}
