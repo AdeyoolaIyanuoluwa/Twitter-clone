@@ -1,0 +1,57 @@
+.tweetpage{
+    border: thin solid black;
+    max-width: 600px;
+}
+.nav{
+    /* border: thin solid gray; */
+    /* position: absolute; */
+    line-height: 2px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* border: thin solid black; */
+    width: 70%;
+    margin: auto;
+}
+.sub-head{
+    padding-left: 13px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+.home{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.heading-text{
+    font-size: 15px;
+}
+.happening{
+    color: #536475;
+    font-size: 20px;
+}
+.image{
+    width: 8%;
+    border-radius: 100%;
+}
+.image1{
+    inset: 0px;
+    height: 100%;
+    /* opacity: 0; */
+    /* position: absolute; */
+    width: 70%;
+    border-radius: 6%;
+    z-index: -1;
+}
+.tweet{
+    line-height: 8px;
+}
+i{
+    float: right;
+}
+.tweet-container{
+   /* float: left; */
+}

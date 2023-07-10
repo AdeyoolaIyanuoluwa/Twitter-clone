@@ -6,16 +6,21 @@ import { GoVerified } from "react-icons/go"
 import { CiCircleMore } from "react-icons/ci"
 import "../Leftbar/leftbar.css"
 import Button from '../Button/button'
+// import { useNavigate } from 'react-router-dom'
 
 const Leftbar = () => {
+    // const navigate = useNavigate()
+    //     const home =()=>{
+    //         navigate()
+    //     }
   return (
     <div className='sidenav'>
-        <nav >
+        <nav>
            <ul>
             <div className='logo'>
                 <BiLogoTwitter/>
             </div>
-           <li className='home'>
+           <li>
                     
            <span><b><i className='icon'><BiSolidHomeCircle/></i> Home</b></span>
             </li>

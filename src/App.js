@@ -1,10 +1,10 @@
-import './App.css';
-import Leftbar from './components/Leftbar/leftbar';
+import Mainpage from "./components/MainPage/mainpage";
+
 
 function App() {
   return (
     <div>
-        <Leftbar/>
+       <Mainpage/> 
     </div>
   );
 }

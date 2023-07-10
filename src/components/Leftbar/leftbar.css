@@ -1,5 +1,6 @@
 nav{
-    font-family: "roboto-thin", sans-serif;
+    font-family: "TwitterChirp" apple-system BlinkMacSystemFont "Segoe UI" Roboto Helvetica Arial sans-serif;
+    text-rendering: "TwitterChirp";
     width: 23%;
     margin: 0;
     padding-left: 20px;
@@ -15,7 +16,6 @@ ul {
     color: #1d9bf0;
     font-size: 40px;
     pointer-events: auto;
-    
     margin-bottom: 20px;
 }
   li span {
