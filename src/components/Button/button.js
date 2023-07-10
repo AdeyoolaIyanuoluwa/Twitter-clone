@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { Children } from 'react'
+import "../Button/button.css"
 
-const Button = (props) => {
+const Button = ({children, mainbutton}) => {
   return (
     <div>
-
+        <button className={mainbutton ? "main-button" : "sub-button"}>{children}</button>
     </div>
   )
 }

@@ -1,0 +1,16 @@
+.main-button{
+    background-color: #1d9bf0;
+    color: #ffffff;
+    font-family: "TwitterChirp roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 244px;
+    border-radius: 50px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+}
+.sub-button{
+    background-color: black;
+    color: inherit;
+}
