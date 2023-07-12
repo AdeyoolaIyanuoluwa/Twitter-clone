@@ -1,5 +1,10 @@
 .mainpage{
     display: flex;
-    /* display: grid;
-    grid-template-columns: auto auto auto auto; */
+}
+.leftbar{
+    width: 24%;
+}
+.Rightbar{
+    width: 31%;
+    /* float: end; */
 }

@@ -1,12 +1,14 @@
 .tweetpage{
-    border: 0.5px solid #536475;
+    border: 0.5px solid #eff3f4;
     max-width: 600px;
     font-family: "TwitterChirp" "apple-system BlinkMacSystemFont" "Segoe UI" "Roboto" Helvetica Arial sans-serif;
 }
 .nav{
     /* border: thin solid gray; */
-    /* position: absolute; */
+    /* position: fixed; */
     line-height: 2px;
+    border-bottom: thin solid #eff3f4;
+    /* height: 100px; */
 }
 .heading{
     display: flex;
@@ -14,9 +16,9 @@
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    /* border: thin solid black; */
     width: 70%;
     margin: auto;
+    /* border: thin solid black; */
 }
 .sub-head{
     padding-left: 40px;
@@ -83,6 +85,7 @@ i{
     color: #536475;
 }
 .retweet{
-    margin-right: 500vh;
+    margin-left: 80px;
+    width: 80%;
 }
 

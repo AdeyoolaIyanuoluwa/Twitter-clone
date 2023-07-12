@@ -16,7 +16,6 @@ const Tweetpage = () => {
                     <h5 className='heading-text'>For you</h5>
                     <h5 className='heading-text'>Following</h5>
                 </div>
-                <hr />
             </div>
 
         <div className='sub-head'>
@@ -39,7 +38,7 @@ const Tweetpage = () => {
                     <img src={image1} className='image1' alt="" />
                 </div>
             </div>  
-            <div><img src={retweet} alt="" /></div>
+            <div><img className='retweet' src={retweet} alt="" /></div>
 
            <div className='tweet-container'>
                     <div className='image-cont'>
@@ -54,7 +53,7 @@ const Tweetpage = () => {
                     <img src={image1} className='image1' alt="" />
                 </div>
             </div>  
-            <div className='retweet'><img  src={retweet} alt="" /></div>
+            <div><img className='retweet' src={retweet} alt="" /></div>
     </div>
   )
 }

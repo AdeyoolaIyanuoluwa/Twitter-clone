@@ -12,5 +12,13 @@
 }
 .sub-button{
     background-color: black;
-    color: inherit;
+    color: white;
+    font-family: "TwitterChirp roboto", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 144px;
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px ;
 }
