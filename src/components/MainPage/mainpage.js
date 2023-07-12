@@ -7,7 +7,7 @@ const Mainpage = () => {
   return (
     <div className='mainpage'>
         <div>
-            {/* <Leftbar/> */}
+            <Leftbar/>
         </div>
         <div>
             <Tweetpage/>

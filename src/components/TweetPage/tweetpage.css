@@ -1,6 +1,7 @@
 .tweetpage{
-    border: thin solid black;
+    border: 0.5px solid #536475;
     max-width: 600px;
+    font-family: "TwitterChirp" "apple-system BlinkMacSystemFont" "Segoe UI" "Roboto" Helvetica Arial sans-serif;
 }
 .nav{
     /* border: thin solid gray; */
@@ -18,40 +19,70 @@
     margin: auto;
 }
 .sub-head{
-    padding-left: 13px;
+    padding-left: 40px;
     padding-top: 13px;
     padding-bottom: 20px;
 }
 .home{
     padding-left: 20px;
     font-size: 20px;
+    padding-top: 25px;
+    color: #0f1419;
 }
 .heading-text{
     font-size: 15px;
+    color: #536475;
+}
+.heading-text:hover{
+    /* background-color: #e7e7e8; */
+    text-decoration: 5px underline #1d9bf0;
 }
 .happening{
     color: #536475;
     font-size: 20px;
 }
-.image{
-    width: 8%;
-    border-radius: 100%;
+.A{
+    width: 100px;
+    height: 100vh;
+    /* border-radius: 100%; */
+    text-align: center;
+    background-color: #5c6bc0;
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
 }
-.image1{
-    inset: 0px;
-    height: 100%;
-    /* opacity: 0; */
-    /* position: absolute; */
-    width: 70%;
-    border-radius: 6%;
-    z-index: -1;
+.tweet-container{
+    display: flex;
+    padding-left: 20px;
+    /* border: border-box; */
+}
+.image-cont{
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.image{
+    width: 100%;
+    border-radius: 100%; 
 }
 .tweet{
     line-height: 8px;
 }
 i{
     float: right;
+    padding-right: 30px;
+    font-size: 30px;
+    color: #536475;
 }
-.tweet-container{
-   /* float: left; */
+.image1{
+    width: 95%;
+    border-radius: 6%;
 }
+.txt{
+    color: #536475;
+}
+.retweet{
+    margin-right: 500vh;
+}
+
