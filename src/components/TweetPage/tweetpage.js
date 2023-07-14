@@ -1,5 +1,5 @@
 import React from 'react'
-import "../TweetPage/tweetpage.css"
+import "../TweetPage/tweetpage.scss"
 import tweet from "../Assets/images/tweet.png"
 import avatar from "../Assets/images/avatar.jpg"
 import image1 from "../Assets/images/image1.jpg"
@@ -13,16 +13,16 @@ const Tweetpage = () => {
         <div className ='nav'>
              <h1 className='home'>Home</h1>
                 <div className='heading'>
-                    <h5 className='heading-text'>For you</h5>
-                    <h5 className='heading-text'>Following</h5>
+                    <span className='heading-text'>For you</span>
+                    <span className='heading-text'>Following</span>
                 </div>
             </div>
 
         <div className='sub-head'>
-             <span className='A'>A</span>
-             <span className='happening'><b>What is happening?!</b></span>
+             <span className='A'>U</span>
+             <span className='happening'>What is happening?!</span>
         </div>
-             <img src={tweet} alt="" />
+             <img src={tweet} className='tweet1' alt="" />
              
 
            <div className='tweet-container'>
@@ -32,7 +32,7 @@ const Tweetpage = () => {
         
                 <div className='tweet'>
                     <p><b>Iyanuoluwa</b> <span className='txt'>@Adewumi. 48m </span>
-                    <i><CgMoreAlt/></i>
+                    <i className='i'><CgMoreAlt/></i>
                     </p>
                     <p className='txt'>Good life</p>
                     <img src={image1} className='image1' alt="" />
@@ -47,7 +47,7 @@ const Tweetpage = () => {
         
                 <div className='tweet'>
                     <p><b>Lerry</b> <span className='txt'>@AsiwajuLerry. 48m </span>
-                    <i><CgMoreAlt/></i>
+                    <i className='i'><CgMoreAlt/></i>
                     </p>
                     <p className='txt'>Good life</p>
                     <img src={image1} className='image1' alt="" />

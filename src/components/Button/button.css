@@ -4,11 +4,13 @@
     font-family: "TwitterChirp roboto", sans-serif;
     font-weight: bold;
     font-size: 20px;
-    width: 244px;
+    width: 234px;
     border-radius: 50px;
     border: none;
-    padding-top: 15px;
-    padding-bottom: 15px ;
+    margin-right: 35px;
+    padding-top: 13px;
+    padding-bottom: 13px ;
+    /* padding-right: ; */
 }
 .sub-button{
     background-color: black;

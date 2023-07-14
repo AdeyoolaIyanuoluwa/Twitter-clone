@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Rightnav/rightnav.css"
+import "../Rightnav/rightnav.scss"
 import { CgSearch } from "react-icons/cg"
 import Button from '../Button/button'
 import { CgMoreAlt } from "react-icons/cg"
@@ -22,43 +22,44 @@ const Rightnav = () => {
 
         <div className='trends-box'>
             <span className='trends'>Trends for you</span>
+            
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>
             <div className='trending-bx'>
-                <span className='trending'>Trending in Nigeria</span> <span><i><CgMoreAlt/></i></span>
+                <span className='trending'>Trending in Nigeria</span> <span><i className="i"><CgMoreAlt/></i></span>
                 <p className='sub-trending'>Song of the year</p>
                 <p className='count-tweet'>19.9k Tweets</p>
             </div>

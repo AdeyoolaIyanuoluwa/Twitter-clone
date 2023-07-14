@@ -8,3 +8,8 @@
     width: 31%;
     /* float: end; */
 }
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .Rightbar{
+        display: none;
+    }
+}

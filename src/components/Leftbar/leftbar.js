@@ -4,7 +4,7 @@ import { CgSearch, CgProfile, CgMoreAlt } from "react-icons/cg"
 import { GrNotification } from "react-icons/gr"
 import { GoVerified } from "react-icons/go"
 import { CiCircleMore } from "react-icons/ci"
-import "../Leftbar/leftbar.css"
+import "../Leftbar/leftbar.scss"
 import Button from '../Button/button'
 // import { useNavigate } from 'react-router-dom'
 
@@ -14,8 +14,8 @@ const Leftbar = () => {
     //         navigate()
     //     }
   return (
-    <div className='sidenav'>
-        <nav>
+    <div>
+        <nav className='sidenav'>
            <ul>
             <div className='logo'>
                 <BiLogoTwitter/>
@@ -25,7 +25,7 @@ const Leftbar = () => {
            <span><b><i className='icon'><BiSolidHomeCircle/></i> Home</b></span>
             </li>
             <li >
-                <span>
+                <span >
                     <b className='icon'><CgSearch/></b>  Explore</span>
             </li>
             <li>
@@ -34,6 +34,12 @@ const Leftbar = () => {
             </li>
             <li>
                 <span><b className='icon'><GoVerified/></b> Messages</span>
+            </li>
+            <li>
+                <span><b  className='icon'><CgProfile/></b> Lists</span>
+            </li>
+            <li>
+                <span><b  className='icon'><CgProfile/></b> Verified</span>
             </li>
             <li>
                 <span><b  className='icon'><CgProfile/></b> Profile</span>
@@ -51,6 +57,47 @@ const Leftbar = () => {
                     <p>@username</p>
                </div>
                <div className='icon2'><CgMoreAlt/></div>
+           </div>
+        </nav>
+
+
+        <nav className='small-screen'>
+           <ul>
+            <div className='logo'>
+                <BiLogoTwitter/>
+            </div>
+           <li>
+                    
+           <span><b><i className='icon'><BiSolidHomeCircle/></i></b></span>
+            </li>
+            <li >
+                <span >
+                    <b className='icon'><CgSearch/></b></span>
+            </li>
+            <li>
+                <span>
+                    <b className='icon'><GrNotification/></b></span>
+            </li>
+            <li>
+                <span><b className='icon'><GoVerified/></b></span>
+            </li>
+            <li>
+                <span><b  className='icon'><CgProfile/></b></span>
+            </li>
+            <li>
+                <span><b  className='icon'><CgProfile/></b></span>
+            </li>
+            <li>
+                <span><b  className='icon'><CgProfile/></b></span>
+            </li>
+            <li>
+                <span><b className='icon'><CiCircleMore/></b></span>
+            </li>
+            {/* <Button mainbutton ={true} children="Tweet"/> */}
+           </ul>
+
+           <div className='username'>
+                <span className='U'>U</span>
            </div>
         </nav>
     </div>

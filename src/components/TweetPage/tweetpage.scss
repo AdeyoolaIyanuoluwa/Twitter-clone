@@ -18,7 +18,7 @@
     padding-right: 50px;
     width: 70%;
     margin: auto;
-    /* border: thin solid black; */
+    margin-bottom: 30px;
 }
 .sub-head{
     padding-left: 40px;
@@ -29,24 +29,29 @@
     padding-left: 20px;
     font-size: 20px;
     padding-top: 25px;
+    padding-bottom: 25px;
     color: #0f1419;
 }
 .heading-text{
     font-size: 15px;
-    color: #536475;
+    font-weight: 500;
+    color: #536471;
 }
 .heading-text:hover{
     /* background-color: #e7e7e8; */
     text-decoration: 5px underline #1d9bf0;
+    
 }
 .happening{
     color: #536475;
     font-size: 20px;
+    font-weight: 400;
 }
 .A{
-    width: 100px;
-    height: 100vh;
-    /* border-radius: 100%; */
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 100%;
+    padding: 13px;
     text-align: center;
     background-color: #5c6bc0;
     margin-right: 30px;
@@ -71,7 +76,7 @@
 .tweet{
     line-height: 8px;
 }
-i{
+.i{
     float: right;
     padding-right: 30px;
     font-size: 30px;
@@ -87,5 +92,21 @@ i{
 .retweet{
     margin-left: 80px;
     width: 80%;
+}
+
+
+@media screen and (min-width: 200px) and (max-width:868px) {
+    .tweetpage{
+        max-width: 87%;
+        margin-left: 62px;    }
+    .tweet1{
+        width: 90%;
+        margin-left: 40px;
+    }
+    .image{
+        margin-top: 9px;
+        width: 150%; 
+        // border: thick solid red;
+    }
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Leftbar from '../Leftbar/leftbar'
 import Tweetpage from '../TweetPage/tweetpage'
-import "../MainPage/mainpage.css"
+import "../MainPage/mainpage.scss"
 import Rightnav from '../Rightnav/rightnav'
 
 const Mainpage = () => {
