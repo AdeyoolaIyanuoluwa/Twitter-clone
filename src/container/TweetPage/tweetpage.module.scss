@@ -19,8 +19,16 @@
     width: 70%;
     margin: auto;
     margin-bottom: 30px;
+
+    &__heading_text{
+        font-size: 15px;
+        font-weight: 500;
+        color: #536471;
+    }
 }
-.sub-head{
+
+.sub_head{
+    display: flex;
     padding-left: 40px;
     padding-top: 13px;
     padding-bottom: 20px;
@@ -32,12 +40,8 @@
     padding-bottom: 25px;
     color: #0f1419;
 }
-.heading-text{
-    font-size: 15px;
-    font-weight: 500;
-    color: #536471;
-}
-.heading-text:hover{
+
+.heading_text:hover{
     /* background-color: #e7e7e8; */
     text-decoration: 5px underline #1d9bf0;
     
@@ -47,23 +51,13 @@
     font-size: 20px;
     font-weight: 400;
 }
-.A{
-    /* width: 100px;
-    height: 100px; */
-    border-radius: 100%;
-    padding: 13px;
-    text-align: center;
-    background-color: #5c6bc0;
-    margin-right: 30px;
-    color: white;
-    font-weight: bold;
-}
-.tweet-container{
+
+.tweet_container{
     display: flex;
     padding-left: 20px;
     /* border: border-box; */
 }
-.image-cont{
+.image_cont{
     width: 90%;
     height: 90%;
     border-radius: 100%;

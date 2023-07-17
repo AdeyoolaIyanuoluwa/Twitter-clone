@@ -1,3 +1,6 @@
+// $primary-color: #f7f9f9;
+@import "../../style/colors";
+
 .rightnav{
    max-width: 83%;
   margin: auto;
@@ -55,7 +58,7 @@
 
 .trends-box{
     margin-top: 15px;
-    background-color: #f7f9f9;
+    background-color: $primary-color;
     padding: 15px;
 }
 .trends{
@@ -67,11 +70,17 @@
 .trending-bx{
     line-height: 10px;
     padding-top: 10px;
-}
-.trending-bx:hover{
-   
+    &:hover {
         background-color: #e7e7e8;
+     }
 }
+.i{
+    float: right;
+    padding-right: 30px;
+    font-size: 30px;
+    color: #536475;
+}
+
 .trending{
     font-size: 13px;
     color: #536471;

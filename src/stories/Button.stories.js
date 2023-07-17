@@ -1,39 +1,28 @@
-import { Button } from './Button';
+import React from 'react';
+import Button from '../components/Button/button';
 
-// More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
-  title: 'Example/Button',
-  component: Button,
-  tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+    title: 'Components/Button',
+    component: Button
+}
+
+const TemplateButton = (args) => {
+    return(
+        <div>
+            <Button {...args}>Tweet</Button>
+        </div>
+    )
 };
 
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Primary = {
-  args: {
-    primary: true,
-    label: 'Button',
-  },
-};
+export const mainButton = TemplateButton.bind({});
+mainButton.args = {
+    children: 'Tweet',
+    mainbutton: true
+}
 
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
+export const subButton = TemplateButton.bind({});
+subButton.args = {
+    children: 'Get verified',
+    mainbutton: false
+}
 
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
-};

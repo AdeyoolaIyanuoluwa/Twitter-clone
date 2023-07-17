@@ -1,8 +1,11 @@
+// @use '../src/style/colors.scss';
+// @import "../src/style/colors";
 body {
   margin: 0;
   font-family:"Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  // background-color: $primary-color;
 }
 
 code {

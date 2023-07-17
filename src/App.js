@@ -1,10 +1,14 @@
-import Mainpage from "./components/MainPage/mainpage";
+import { BrowserRouter } from "react-router-dom";
+import Mainpage from "./container/MainPage/mainpage";
+
 
 
 function App() {
   return (
     <div>
-       <Mainpage/> 
+      <BrowserRouter>
+            <Mainpage/>
+      </BrowserRouter>
     </div>
   );
 }

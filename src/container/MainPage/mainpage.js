@@ -1,14 +1,14 @@
 import React from 'react'
-import Leftbar from '../Leftbar/leftbar'
 import Tweetpage from '../TweetPage/tweetpage'
-import "../MainPage/mainpage.scss"
+import "./mainpage.scss"
 import Rightnav from '../Rightnav/rightnav'
+import Sidebar from '../../components/Sidebar/sidebar'
 
 const Mainpage = () => {
   return (
     <div className='mainpage'>
         <div className='leftbar'>
-            <Leftbar/>
+           <Sidebar/>
         </div>
         <div>
             <Tweetpage/>
