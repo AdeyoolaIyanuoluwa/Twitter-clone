@@ -1,9 +1,6 @@
 import React from 'react'
-import { BiSolidHomeCircle, BiLogoTwitter } from "react-icons/bi"
-import { CgSearch, CgProfile, CgMoreAlt } from "react-icons/cg"
-import { GrNotification } from "react-icons/gr"
-import { GoVerified } from "react-icons/go"
-import { CiCircleMore } from "react-icons/ci"
+import {  BiLogoTwitter } from "react-icons/bi"
+import { CgMoreAlt } from "react-icons/cg"
 import "./sidebar.scss"
 import Button from '../Button/button'
 import { navLinks } from './navLinks'
