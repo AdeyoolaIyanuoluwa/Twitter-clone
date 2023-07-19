@@ -43,6 +43,10 @@ const Rightnav = () => {
         
         <Trend title="Trending in Nigeria" subtitle="Song of the year" count="19.9k" />
 
+        <Trend title="Trending in Nigeria" subtitle="Song of the year" count="19.9k" />
+        
+        <Trend title="Trending in Nigeria" subtitle="Song of the year" count="19.9k" />
+
 
         </div>
     </div>

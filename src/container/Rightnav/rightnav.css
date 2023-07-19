@@ -1,0 +1,109 @@
+.rightnav {
+  max-width: 83%;
+  margin: auto;
+}
+
+.input-box {
+  /* width: 100%; */
+  margin-top: 10px;
+  height: 40px;
+  border: thin solid #eff3f4;
+  border-radius: 50px;
+  background-color: #eff3f4;
+}
+
+.input-box:hover {
+  border: thin solid #1d9bf0;
+}
+
+.input-inner {
+  margin-left: 13px;
+}
+
+.search-icon {
+  font-size: 23px;
+  position: absolute;
+  top: 20px;
+  color: #707f8a;
+}
+
+.search-icon:hover {
+  color: #1d9bf0;
+}
+
+.input {
+  font-size: 15px;
+  position: relative;
+  top: 9px;
+  left: 30px;
+  font-weight: 400;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.verified {
+  background-color: #f7f9f9;
+  padding: 10px;
+  margin-top: 15px;
+  line-height: 5px;
+  border-radius: 20px;
+}
+
+.verified-txt1 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f1419;
+  font-weight: 800;
+}
+
+.verified-txt2 {
+  font-size: 15px;
+  color: #505358;
+}
+
+.trends-box {
+  margin-top: 15px;
+  background-color: blue;
+  padding: 15px;
+}
+
+.trends {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f1419;
+  padding-bottom: 300px;
+}
+
+.trending-bx {
+  line-height: 10px;
+  padding-top: 10px;
+}
+.trending-bx:hover {
+  background-color: #e7e7e8;
+}
+
+.i {
+  float: right;
+  padding-right: 30px;
+  font-size: 30px;
+  color: #536475;
+}
+
+.trending {
+  font-size: 13px;
+  color: #536471;
+}
+
+.sub-trending {
+  font-size: 15px;
+  color: #0f1419;
+  font-weight: 700;
+}
+
+.count-tweet {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #536471;
+}/*# sourceMappingURL=rightnav.css.map */

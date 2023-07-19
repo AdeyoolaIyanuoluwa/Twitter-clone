@@ -8,6 +8,24 @@ import retweet from "../../assets/images/retweet.png"
 import Avatar from '../../components/Avatar/avatar'
 
 
+const Thetweet= ({mainname,username,tweet})=>{
+  return(
+    <div className={styles.tweet_container}>
+        <div className={styles.image_cont}>
+            <img src={avatar} className={styles.image} alt="" />   
+        </div>
+
+        <div className={styles.tweet}>
+            <p><b>{mainname}</b> <span className={styles.txt}>{username}. 48m </span>
+            <i className={styles.i}><CgMoreAlt/></i>
+            </p>
+            <p className={styles.txt}>{tweet}</p>
+            <img src={image1} className={styles.image1} alt="" />
+        </div>
+  </div>
+  )
+}
+
 const Tweetpage = () => {
   return (
     <div className={styles.tweetpage}>
@@ -30,34 +48,10 @@ const Tweetpage = () => {
              <img src={tweet} className={styles.tweet1} alt="" />
              
 
-           <div className={styles.tweet_container}>
-                    <div className={styles.image_cont}>
-                         <img src={avatar} className={styles.image} alt="" />   
-                    </div>
-        
-                <div className={styles.tweet}>
-                    <p><b>Iyanuoluwa</b> <span className={styles.txt}>@Adewumi. 48m </span>
-                    <i className={styles.i}><CgMoreAlt/></i>
-                    </p>
-                    <p className={styles.txt}>Good life</p>
-                    <img src={image1} className={styles.image1} alt="" />
-                </div>
-            </div>  
+             <Thetweet mainname="Iyanuoluwa" username="@Adewumi" tweet="Good life"/>
             <div><img className={styles.retweet} src={retweet} alt="" /></div>
 
-           <div className={styles.tweet_container}>
-                    <div className={styles.image_cont}>
-                         <img src={avatar} className={styles.image} alt="" />   
-                    </div>
-        
-                <div className={styles.tweet}>
-                    <p><b>Lerry</b> <span className={styles.txt}>@AsiwajuLerry. 48m </span>
-                    <i className={styles.i}><CgMoreAlt/></i>
-                    </p>
-                    <p className={styles.txt}>Good life</p>
-                    <img src={image1} className={styles.image1} alt="" />
-                </div>
-            </div>  
+             <Thetweet mainname="Lerry" username="@AsiwajuLerry" tweet="A Good life"/>
             <div><img className={styles.retweet} src={retweet} alt="" /></div>
     </div>
   )

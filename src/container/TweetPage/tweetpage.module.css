@@ -1,0 +1,114 @@
+.tweetpage {
+  border: 0.5px solid #eff3f4;
+  max-width: 600px;
+  font-family: "TwitterChirp" "apple-system BlinkMacSystemFont" "Segoe UI" "Roboto" Helvetica Arial sans-serif;
+}
+
+.nav {
+  /* border: thin solid gray; */
+  /* position: fixed; */
+  line-height: 2px;
+  border-bottom: thin solid #eff3f4;
+  /* height: 100px; */
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.heading__heading_text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #536471;
+}
+
+.sub_head {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 13px;
+  padding-bottom: 20px;
+}
+
+.home {
+  padding-left: 20px;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #0f1419;
+}
+
+.heading_text:hover {
+  /* background-color: #e7e7e8; */
+  -webkit-text-decoration: 5px underline #1d9bf0;
+          text-decoration: 5px underline #1d9bf0;
+}
+
+.happening {
+  color: #536475;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tweet_container {
+  display: flex;
+  padding-left: 20px;
+  /* border: border-box; */
+}
+
+.image_cont {
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.tweet {
+  line-height: 8px;
+}
+
+.i {
+  float: right;
+  padding-right: 30px;
+  font-size: 30px;
+  color: #536475;
+}
+
+.image1 {
+  width: 95%;
+  border-radius: 6%;
+}
+
+.txt {
+  color: #536475;
+}
+
+.retweet {
+  margin-left: 80px;
+  width: 80%;
+}
+
+@media screen and (min-width: 200px) and (max-width: 868px) {
+  .tweetpage {
+    max-width: 87%;
+    margin-left: 62px;
+  }
+  .tweet1 {
+    width: 90%;
+    margin-left: 40px;
+  }
+  .image {
+    margin-top: 9px;
+    width: 150%;
+  }
+}/*# sourceMappingURL=tweetpage.module.css.map */
